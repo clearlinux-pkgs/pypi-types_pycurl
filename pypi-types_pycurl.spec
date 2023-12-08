@@ -7,7 +7,7 @@
 #
 Name     : pypi-types_pycurl
 Version  : 7.45.2.5
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/eb/a8/62cb3b8c6abd38f8b86a7ab90c0835b99a18c68d32d43df5e22b43c6a779/types-pycurl-7.45.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/eb/a8/62cb3b8c6abd38f8b86a7ab90c0835b99a18c68d32d43df5e22b43c6a779/types-pycurl-7.45.2.5.tar.gz
 Summary  : Typing stubs for pycurl
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701745611
+export SOURCE_DATE_EPOCH=1702072659
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
