@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-types_pycurl
-Version  : 7.45.2.20240417
-Release  : 7
-URL      : https://files.pythonhosted.org/packages/d0/76/97ce0b9462896f7e1c9902727ea71ff217502b1b39fa5257cedc76f27833/types-pycurl-7.45.2.20240417.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d0/76/97ce0b9462896f7e1c9902727ea71ff217502b1b39fa5257cedc76f27833/types-pycurl-7.45.2.20240417.tar.gz
+Version  : 7.45.3.20240421
+Release  : 8
+URL      : https://files.pythonhosted.org/packages/6a/fd/5c8d1b3bb5d84387e13738484e095d3940763b698d4fce6d0f607b24e7c9/types-pycurl-7.45.3.20240421.tar.gz
+Source0  : https://files.pythonhosted.org/packages/6a/fd/5c8d1b3bb5d84387e13738484e095d3940763b698d4fce6d0f607b24e7c9/types-pycurl-7.45.3.20240421.tar.gz
 Summary  : Typing stubs for pycurl
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-types_pycurl package.
 
 
 %prep
-%setup -q -n types-pycurl-7.45.2.20240417
-cd %{_builddir}/types-pycurl-7.45.2.20240417
+%setup -q -n types-pycurl-7.45.3.20240421
+cd %{_builddir}/types-pycurl-7.45.3.20240421
 pushd ..
-cp -a types-pycurl-7.45.2.20240417 buildavx2
+cp -a types-pycurl-7.45.3.20240421 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713367864
+export SOURCE_DATE_EPOCH=1713807987
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
